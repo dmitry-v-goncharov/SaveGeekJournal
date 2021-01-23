@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Save ukrainian youtube</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         html {
             font-family: sans-serif;
@@ -40,6 +41,9 @@
             stroke-width: 0.1px;
             transition: all .3s ease-in;
         }
+        .center {
+            transform-origin: 50% 50%;
+        }
         a {
             color: blue;
             font-size: 5vw;
@@ -54,6 +58,9 @@
         }
         .hero.active .second {
             transform: translateX(10px);
+        }
+        .hero.active .center {
+            transform: rotate(225deg);
         }
     </style>
     <div class="wrapper">
